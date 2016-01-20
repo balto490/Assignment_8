@@ -1,0 +1,214 @@
+html {
+	font-family: 'Arsenal', sans-serif;
+}
+
+
+body {
+	color: black;
+	background-image: url(images/Emirates.jpg);
+	background-repeat: no-repeat;
+	background-size: 1350px;
+	
+}
+
+#facebook {
+	width: 40px;
+	position: fixed;
+	float: left;
+	padding-left: 20px;
+	top: 250px;
+}
+
+#twitter {
+	width: 40px;
+	float: left;
+	position: fixed;
+	padding-left: 20px;
+	top: 300px;
+}
+
+h1 {
+	color: red;
+	font-size: 40px;
+	text-align: center;
+
+}
+
+h4 {
+	color: red;
+	text-align: center;
+}
+
+#homeimage img {
+	float: right;
+	width:200px;
+	left: 850px;
+}
+
+li {
+	color: red;
+	float: left;
+	padding-right: 40px;
+	padding-left: 60px
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+	overflow: hidden;
+	background-color: red;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 15px 12px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+/*changes background color when hovering*/
+li a:hover {
+	background-color: white;
+}
+
+
+#alexis {
+	width: 500px;
+	float: right;
+}
+
+#wenger {
+	width: 200px;
+	float: left;
+	padding-right: 20px;
+}
+
+/*image gallery*/
+
+.roster_gallery {
+	margin-left: 80px;
+	padding-top: 100px;
+	float: left;
+	width: 180px;
+}
+
+
+
+.roster_gallery img {
+	width: 100%;
+	height: auto;
+}
+
+.description {
+	padding: 15px;
+	text-align: center;
+}
+
+/*Ipad*/
+
+@media all and (max-width: 768px) {
+
+body {
+	color: black;
+	background-image: url(images/Emirates.jpg);
+	background-repeat: no-repeat;
+	background-size: 768px;
+}
+
+#homeimage img {
+	float: right;
+	width:150px;
+	left: 850px;
+}
+
+.roster_gallery {
+	margin-left: 80px;
+	float: left;
+	width: 180px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 5px;
+	overflow: hidden;
+	background-color: red;
+	margin-left: 20px;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+#facebook {
+	width: 40px;
+	position: fixed;
+	float: left;
+	padding-left: 20px;
+	top: 250px;
+}
+
+#twitter {
+	width: 40px;
+	padding-left: 20px;
+	top: 300px;
+}
+
+}
+
+/*Iphone*/
+
+@media all and (max-width: 375px) {
+
+body {
+	color: black;
+	background-image: url(images/Emirates.jpg);
+	background-repeat: no-repeat;
+	background-size: 400px;
+}
+
+#homeimage img {
+	float: right;
+	width:75px;
+	left: 850px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+	overflow: hidden;
+	background-color: red;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+#facebook {
+	width: 40px;
+	position: fixed;
+	float: left;
+	padding-left: 20px;
+	top: 200px;
+}
+
+#twitter {
+	width: 40px;
+	padding-left: 20px;
+	top: 250px;
+}
+
+}
+
+
+
+
+
